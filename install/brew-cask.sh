@@ -19,7 +19,6 @@ apps=(
     evernote
     iterm2
     atom
-    webstorm
     firefox
     firefoxnightly
     google-chrome
@@ -37,7 +36,6 @@ apps=(
     tower
     transmit
     elmedia-player
-    utorrent
 )
 
 brew cask install "${apps[@]}"
