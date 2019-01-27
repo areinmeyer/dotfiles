@@ -52,6 +52,7 @@ packages=(
     nodemon
     svgo
     yo
+    standard-version
 )
 
 npm install -g "${packages[@]}"

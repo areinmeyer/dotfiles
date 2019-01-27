@@ -72,6 +72,11 @@ apps=(
     ffmpeg --with-libvpx
     wget
     wifi-password
+    neovim
+    gcc
+    bat
+    ripgrep
+    font-fira-code
 )
 
 brew install "${apps[@]}"

@@ -4,6 +4,7 @@
 brew tap caskroom/cask
 brew install brew-cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 # Install packages
 apps=(
@@ -20,15 +21,12 @@ apps=(
     iterm2
     atom
     firefox
-    firefoxnightly
     google-chrome
-    google-chrome-canary
     malwarebytes-anti-malware
     glimmerblocker
     hammerspoon
     kaleidoscope
     macdown
-    opera
     screenflow
     spotify
     skype
@@ -36,6 +34,7 @@ apps=(
     tower
     transmit
     elmedia-player
+    code
 )
 
 brew cask install "${apps[@]}"
