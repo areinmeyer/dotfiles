@@ -136,6 +136,13 @@ ln -s /Applications/Atom.app/Contents/Resources/app/atom.sh /usr/local/bin/atom
 
 
 ###############################################################################
+# Visual Studio Code                                                          #
+###############################################################################
+
+# Need to figure out how to symlink vscode from homebrew into applications.  
+# ln -s /Applications/Code.app/Contents/Resources/app/atom.sh /usr/local/bin/code
+ln -f -s ~/dotfiles/code/settings.json ~/Library/Application\ Support/Code/User/settings.json
+###############################################################################
 # OSX defaults                                                                #
 # https://github.com/hjuutilainen/dotfiles/blob/master/bin/osx-user-defaults.sh
 ###############################################################################

@@ -1,0 +1,31 @@
+{
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Night Owl",
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontSize": 14,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "terminal.integrated.scrollback": 1000000,
+    "terminal.integrated.fontSize": 16,
+    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": ["#334FFF","#ffffff"],
+    "vim.statusBarColors.insert": ["#5f0000","#ffffff"],
+    "vim.statusBarColors.replace": ["#5f0000","#ffffff"],
+    "vim.statusBarColors.replace": ["#5f00af","#ffffff"],
+    "vim.statusBarColors.visualblock": ["#86592d","#ffffff"],
+    "vim.statusBarColors.visualline": ["#005f5f","#ffffff"],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#334FFF",
+        "statusBar.noFolderBackground": "#334FFF",
+        "statusBar.debuggingBackground": "#334FFF",
+        "statusBar.foreground": "#ffffff"
+    },
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+    "zenMode.hideActivityBar": false,
+    "vim.easymotion": true,
+    "vim.enableNeovim": true,
+    "vim.foldfix": true
+}
