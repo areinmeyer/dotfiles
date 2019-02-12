@@ -9,31 +9,16 @@ brew tap caskroom/fonts
 # Install packages
 apps=(
     1password
-    gyazo
     dropbox
     google-drive
-    spectacle
-    flux
-    dash
-    imagealpha
-    imageoptim
     evernote
     iterm2
     atom
     firefox
     google-chrome
-    malwarebytes-anti-malware
-    glimmerblocker
-    hammerspoon
     kaleidoscope
-    macdown
-    screenflow
     spotify
-    skype
     slack
-    tower
-    transmit
-    elmedia-player
     code
 )
 

@@ -45,14 +45,10 @@ packages=(
     gulp
     http-server
     servedir
-    flow-bin
-    flow-typed
     npm-check-updates
-    webpack
-    nodemon
-    svgo
     yo
     standard-version
+    spaceship-prompt
 )
 
 npm install -g "${packages[@]}"
