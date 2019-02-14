@@ -20,7 +20,7 @@ brew tap Goles/battery
 brew update
 
 # Upgrade any already-installed formulae
-brew upgrade --all
+brew upgrade
 
 # Install the Homebrew packages I use on a day-to-day basis.
 #
@@ -44,7 +44,7 @@ brew upgrade --all
 # which version I'm using.
 
 apps=(
-    rvm
+    # rvm
     nvm
     coreutils
     moreutils
@@ -70,7 +70,7 @@ apps=(
     gcc
     bat
     ripgrep
-    font-fira-code
+    # font-fira-code
     nginx
     openssl
 )

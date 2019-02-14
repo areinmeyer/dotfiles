@@ -6,6 +6,7 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontSize": 14,
     "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.acceptSuggestionOnEnter": "off",
     "terminal.integrated.scrollback": 1000000,
     "terminal.integrated.fontSize": 16,
     "vim.neovimPath": "/usr/local/bin/nvim",
@@ -16,6 +17,7 @@
     "vim.statusBarColors.replace": ["#5f00af","#ffffff"],
     "vim.statusBarColors.visualblock": ["#86592d","#ffffff"],
     "vim.statusBarColors.visualline": ["#005f5f","#ffffff"],
+    "workbench.editor.highlightModifiedTabs": true,
     "workbench.colorCustomizations": {
         "statusBar.background": "#334FFF",
         "statusBar.noFolderBackground": "#334FFF",

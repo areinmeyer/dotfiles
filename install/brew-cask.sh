@@ -2,7 +2,7 @@
 
 # Install Caskroom
 brew tap caskroom/cask
-brew install brew-cask
+# brew install brew-cask
 brew tap caskroom/versions
 brew tap caskroom/fonts
 
@@ -25,4 +25,4 @@ apps=(
 brew cask install "${apps[@]}"
 
 # Quick Look Plugins (https://github.com/sindresorhus/quick-look-plugins)
-brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv webpquicklook suspicious-package
